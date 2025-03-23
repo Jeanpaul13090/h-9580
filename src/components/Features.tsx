@@ -1,24 +1,25 @@
-import { Check, CreditCard, BarChart, Globe, Clock } from "lucide-react";
+
+import { Check, Twitch, BarChart, Globe, Clock } from "lucide-react";
 
 const features = [
   {
-    title: "Simple Checkout",
-    description: "Streamlined checkout process optimized for conversion and user experience.",
-    icon: CreditCard,
+    title: "Gestion complète de votre chaîne secondaire",
+    description: "Mise en place et gestion complète de votre chaîne secondaire sans aucun effort de votre part.",
+    icon: Twitch,
   },
   {
-    title: "Recurring Billing",
-    description: "Automated billing system for subscriptions and recurring payments.",
+    title: "Automatisation des rediffusions",
+    description: "Hébergement, déploiement des serveurs et automatisation des rediffusions de vos contenus.",
     icon: Clock,
   },
   {
-    title: "Global Payments",
-    description: "Accept payments from customers anywhere in the world.",
+    title: "Rotation stratégique des VODs",
+    description: "Mise à jour et rotation stratégique de vos VODs pour maintenir votre audience engagée.",
     icon: Globe,
   },
   {
-    title: "Detailed Analytics",
-    description: "Get insights into your business with comprehensive reporting.",
+    title: "Suivi des performances",
+    description: "Rapports détaillés et optimisation continue pour maximiser vos revenus passifs.",
     icon: BarChart,
   },
 ];
@@ -28,10 +29,10 @@ const Features = () => {
     <section id="features" className="py-16 container-padding">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Everything You Need to Run & Grow Your Business
+          Tout ce dont vous avez besoin pour développer votre présence sur Twitch
         </h2>
         <p className="text-neutral-600 text-center mb-12 max-w-2xl mx-auto">
-          All the tools and features you need to accept payments, manage subscriptions, and scale your business globally.
+          Je m'occupe de tout pour que vous puissiez vous concentrer uniquement sur la création de votre contenu principal.
         </p>
         <div className="grid md:grid-cols-2 gap-8">
           {features.map((feature, index) => (
