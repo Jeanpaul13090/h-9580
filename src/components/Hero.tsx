@@ -10,15 +10,15 @@ const Hero = () => {
       <div className="max-w-4xl mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-900/40 rounded-full border border-purple-600/30 mb-6">
           <Twitch className="w-4 h-4 text-purple-400" />
-          <span className="text-sm font-medium text-purple-200">Service de streaming Twitch 24/7</span>
+          <span className="text-sm font-medium text-purple-200">{t('streaming_service_24_7')}</span>
         </div>
         
         <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance leading-tight">
-          <span className="text-purple-400">Twitch</span> {t('hero_title')}
+          {t('your_content')} <span className="text-purple-400">Twitch</span> {t('24_7_and_7d_7')}
         </h1>
         
         <p className="text-lg md:text-xl text-neutral-300 mb-8 max-w-2xl mx-auto">
-          {t('hero_subtitle')}
+          {t('maximize_presence')}
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

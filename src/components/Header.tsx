@@ -13,11 +13,11 @@ const Header = () => {
       <nav className="container-padding mx-auto flex h-16 items-center justify-between">
         <a href="/" className="flex items-center gap-2">
           <img 
-            src="/lovable-uploads/60224db4-5ea4-4f91-8035-449dcb073d30.png" 
-            alt="Twitch 24/24 Logo" 
+            src="/lovable-uploads/da714ca1-303b-4727-b1e3-ce08a43307e3.png" 
+            alt="TwitchVOD24 Logo" 
             className="h-10 w-auto"
           />
-          <span className="text-xl font-bold text-white hidden sm:inline">Twitch<span className="text-purple-400">24/24</span></span>
+          <span className="text-xl font-bold text-white hidden sm:inline">Twitch<span className="text-purple-400">VOD24</span></span>
         </a>
         
         <div className="hidden md:flex items-center gap-8">
