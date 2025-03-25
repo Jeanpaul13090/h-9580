@@ -1,23 +1,28 @@
-const stats = [
-  {
-    value: "99.9%",
-    label: "Uptime",
-  },
-  {
-    value: "150+",
-    label: "Countries",
-  },
-  {
-    value: "$2B+",
-    label: "Processed",
-  },
-  {
-    value: "24/7",
-    label: "Support",
-  },
-];
+
+import { useLanguage } from "../contexts/LanguageContext";
 
 const Stats = () => {
+  const { t } = useLanguage();
+  
+  const stats = [
+    {
+      value: "99.9%",
+      label: t('uptime'),
+    },
+    {
+      value: "150+",
+      label: t('countries'),
+    },
+    {
+      value: "$2B+",
+      label: t('processed'),
+    },
+    {
+      value: "24/7",
+      label: t('support'),
+    },
+  ];
+
   return (
     <section className="py-16 container-padding">
       <div className="max-w-4xl mx-auto glass-card rounded-xl p-12">
