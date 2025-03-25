@@ -6,7 +6,7 @@ const Hero = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="pt-32 pb-16 container-padding bg-gradient-to-b from-neutral-900 to-purple-900/20 text-white">
+    <section className="pt-32 pb-16 container-padding bg-gradient-to-b from-[#0e0e0e] to-[#9146FF] text-white">
       <div className="max-w-4xl mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-900/40 rounded-full border border-purple-600/30 mb-6">
           <Twitch className="w-4 h-4 text-purple-400" />
