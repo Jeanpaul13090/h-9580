@@ -6,20 +6,20 @@ const Stats = () => {
   
   const stats = [
     {
-      value: "99.9%",
-      label: t('uptime'),
+      value: "8760h",
+      label: t('in 1 year'),
     },
     {
       value: "150+",
       label: t('countries'),
     },
     {
-      value: "$2B+",
-      label: t('processed'),
+      value: "$100k+",
+      label: t('Generated in 2024'),
     },
     {
       value: "24/7",
-      label: t('support'),
+      label: t('Online'),
     },
   ];
 
