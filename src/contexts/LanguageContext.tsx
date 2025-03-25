@@ -1,3 +1,4 @@
+
 import React, { createContext, useState, useContext, ReactNode } from 'react';
 
 export type Language = 'fr' | 'en' | 'de';
@@ -24,7 +25,7 @@ const translations = {
     live24_7: 'LIVE 24/7',
     streaming_service_24_7: 'Service de streaming Twitch 24/7',
     your_content: 'Votre contenu',
-    24_7_and_7d_7: '24h/24 et 7j/7',
+    twentyFourSeven: '24h/24 et 7j/7',
     maximize_presence: 'Maximisez votre présence sur Twitch avec une chaîne de rediffusion automatisée. Générez des revenus passifs sans effort supplémentaire.',
     // Features section
     features_title: 'Tout ce dont vous avez besoin pour développer votre présence sur Twitch',
@@ -89,7 +90,7 @@ const translations = {
     live24_7: 'LIVE 24/7',
     streaming_service_24_7: 'Twitch streaming service 24/7',
     your_content: 'Your content',
-    24_7_and_7d_7: '24/7 and 7 days a week',
+    twentyFourSeven: '24/7 and 7 days a week',
     maximize_presence: 'Maximize your presence on Twitch with an automated rebroadcasting channel. Generate passive income without additional effort.',
     // Features section
     features_title: 'Everything you need to grow your presence on Twitch',
@@ -154,7 +155,7 @@ const translations = {
     live24_7: 'LIVE 24/7',
     streaming_service_24_7: 'Twitch-Streaming-Dienst rund um die Uhr',
     your_content: 'Ihre Inhalte',
-    24_7_and_7d_7: '24/7 und 7 Tage die Woche',
+    twentyFourSeven: '24/7 und 7 Tage die Woche',
     maximize_presence: 'Maximieren Sie Ihre Präsenz auf Twitch mit einem automatisierten Wiederausstrahlungskanal. Generieren Sie passives Einkommen ohne zusätzlichen Aufwand.',
     // Features section
     features_title: 'Alles was Sie brauchen, um Ihre Präsenz auf Twitch zu erweitern',
