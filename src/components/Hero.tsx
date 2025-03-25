@@ -50,11 +50,16 @@ const Hero = () => {
       
       <div className="mt-16 glass-card rounded-xl p-4 max-w-4xl mx-auto animate-float border border-purple-600/30 bg-neutral-900/60">
         <div className="relative">
-          <img 
-            src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
-            alt="Tableau de bord de diffusion Twitch"
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
             className="rounded-lg w-full"
-          />
+          >
+            <source src="/videos/Performance.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           <div className="absolute -top-3 -right-3 bg-purple-600 text-white px-3 py-1 rounded-full flex items-center gap-1">
             <Twitch className="w-4 h-4" />
             <span className="font-bold">{t('live24_7')}</span>
