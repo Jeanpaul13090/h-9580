@@ -1,5 +1,4 @@
-
-import { Menu, X, Twitch } from "lucide-react";
+import { Menu, X, Twitch, Play } from "lucide-react";
 import { useState } from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 import LanguageSelector from "./LanguageSelector";
@@ -12,11 +11,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-neutral-900/90 backdrop-blur-lg border-b border-purple-600/30">
       <nav className="container-padding mx-auto flex h-16 items-center justify-between">
         <a href="/" className="flex items-center gap-2">
-          <img 
-            src="/lovable-uploads/da714ca1-303b-4727-b1e3-ce08a43307e3.png" 
-            alt="TwitchVOD24 Logo" 
-            className="h-10 w-auto"
-          />
+          <Play className="w-8 h-8 text-purple-500" />
           <span className="text-xl font-bold text-white hidden sm:inline">Twitch<span className="text-purple-400">VOD24</span></span>
         </a>
         
