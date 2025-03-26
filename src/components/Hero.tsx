@@ -7,7 +7,7 @@ const Hero = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="pt-32 pb-16 container-padding bg-gradient-to-b from-[#0e0e0e] to-[#9146FF1A] text-white">
+    <section className="pt-32 pb-16 container-padding bg-gradient-to-b from-[#0e0e0e] to-[#9146FF] text-white">
       <div className="max-w-4xl mx-auto text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-900/40 rounded-full border border-purple-600/30 mb-6">
           <Twitch className="w-4 h-4 text-purple-400" />
@@ -16,8 +16,8 @@ const Hero = () => {
           </span>
         </div>
 
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance leading-tight drop-shadow-2xl">
-          {t("your_content")} <span className="text-purple-300">Twitch</span> {t("twentyFourSeven")}
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance leading-tight">
+          {t('your_content')} <span className="text-purple-400">Twitch</span> {t('twentyFourSeven')}
         </h1>
 
         <p className="text-white font-medium text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
