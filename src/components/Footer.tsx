@@ -27,7 +27,6 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">{t('footer_resources')}</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_blog')}</a></li>
               <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_guides')}</a></li>
               <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_support')}</a></li>
             </ul>

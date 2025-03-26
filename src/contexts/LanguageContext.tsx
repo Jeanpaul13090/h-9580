@@ -47,12 +47,6 @@ const translations = {
     role_streamer_asmr: 'Streamer ASMR',
     role_streameuse_jc: 'Streameuse Just Chatting',
     role_streamer_fps: 'Streamer FPS',
-    // Blog section
-    blog_title: 'Actualités du blog',
-    blog_post1_title: 'Comment optimiser votre chaîne pour les rediffusions',
-    blog_post2_title: 'Maximiser vos revenus passifs sur Twitch',
-    blog_post3_title: 'Les meilleurs moments pour lancer vos streams automatisés',
-    min_read: 'min de lecture',
     // Stats section
     uptime: 'Uptime',
     countries: 'Pays',
@@ -67,7 +61,6 @@ const translations = {
     footer_about: 'À propos',
     footer_contact: 'Contact',
     footer_partnerships: 'Partenariats',
-    footer_blog: 'Blog',
     footer_guides: 'Guides',
     footer_support: 'Support',
     footer_privacy: 'Confidentialité',
@@ -112,12 +105,6 @@ const translations = {
     role_streamer_asmr: 'ASMR Streamer',
     role_streameuse_jc: 'Just Chatting Streamer',
     role_streamer_fps: 'FPS Streamer',
-    // Blog section
-    blog_title: 'Latest from the blog',
-    blog_post1_title: 'How to optimize your channel for reruns',
-    blog_post2_title: 'Maximize your passive income on Twitch',
-    blog_post3_title: 'The best times to launch your automated streams',
-    min_read: 'min read',
     // Stats section
     uptime: 'Uptime',
     countries: 'Countries',
@@ -132,7 +119,6 @@ const translations = {
     footer_about: 'About',
     footer_contact: 'Contact',
     footer_partnerships: 'Partnerships',
-    footer_blog: 'Blog',
     footer_guides: 'Guides',
     footer_support: 'Support',
     footer_privacy: 'Privacy',
@@ -177,12 +163,6 @@ const translations = {
     role_streamer_asmr: 'ASMR Streamer',
     role_streameuse_jc: 'Just Chatting Streamerin',
     role_streamer_fps: 'FPS Streamer',
-    // Blog section
-    blog_title: 'Neuigkeiten aus dem Blog',
-    blog_post1_title: 'So optimieren Sie Ihren Kanal für Wiederholungen',
-    blog_post2_title: 'Maximieren Sie Ihr passives Einkommen auf Twitch',
-    blog_post3_title: 'Die besten Zeiten für den Start Ihrer automatisierten Streams',
-    min_read: 'Min. Lesezeit',
     // Stats section
     uptime: 'Betriebszeit',
     countries: 'Länder',
@@ -197,7 +177,6 @@ const translations = {
     footer_about: 'Über uns',
     footer_contact: 'Kontakt',
     footer_partnerships: 'Partnerschaften',
-    footer_blog: 'Blog',
     footer_guides: 'Anleitungen',
     footer_support: 'Support',
     footer_privacy: 'Datenschutz',
