@@ -14,8 +14,8 @@ const Hero = () => {
           </span>
         </div>
 
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance leading-tight drop-shadow-xl">
-          {t("your_content")} <span className="text-purple-300">Twitch</span> {t("twentyFourSeven")}
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance leading-tight">
+          {t('your_content')} <span className="text-purple-400">Twitch</span> {t('twentyFourSeven')}
         </h1>
 
         <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
