@@ -26,7 +26,7 @@ const translations = {
     streaming_service_24_7: 'Service de streaming Twitch 24/7',
     your_content: 'Votre contenu',
     twentyFourSeven: '24h/24 et 7j/7',
-    maximize_presence: 'Maximisez votre présence sur Twitch avec une chaîne de rediffusion automatisée. Générez des revenus passifs sans effort supplémentaire.',
+    maximize_presence: 'Maximisez votre présence sur Twitch avec une chaîne de rediffusion automatisée.\n Générez des revenus passifs sans effort supplémentaire.',
     // Features section
     features_title: 'Tout ce dont vous avez besoin pour développer votre présence sur Twitch',
     features_subtitle: 'Je m\'occupe de tout pour que vous puissiez vous concentrer uniquement sur la création de votre contenu principal.',

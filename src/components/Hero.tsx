@@ -19,10 +19,15 @@ const Hero = () => {
         <h1 className="text-4xl md:text-6xl font-bold mb-6 text-balance leading-tight">
           {t('your_content')} <span className="text-purple-400">Twitch</span> {t('twentyFourSeven')}
         </h1>
+        
+        <div className="text-white font-semibold text-base md:text-lg mb-8 max-w-3xl mx-auto">
+          {t("maximize_presence").split("\n").map((line, index) => (
+            <span key={index} className="block">
+              {line}
+            </span>
+          ))}
+        </div>
 
-        <p className="text-white font-medium text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-          {t("maximize_presence")}
-        </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors flex items-center justify-center gap-2">
