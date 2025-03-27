@@ -1,4 +1,3 @@
-
 import { useLanguage } from "../contexts/LanguageContext";
 
 const Testimonials = () => {
@@ -7,21 +6,27 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote: t("testimonial1"),
-      author: "MathieuGaming",
+      author: "AkuASMR",
       role: t("role_streamer_asmr"),
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+      avatar: "/image/Aku.png",
+      url: "https://www.twitch.tv/akuasmr",
+      followers: "624,5 k followers",
     },
     {
       quote: t("testimonial2"),
-      author: "EmmaPlay",
-      role: t("role_streameuse_jc"),
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+      author: "Talmo",
+      role: t("role_streamer_fps"),
+      avatar: "/image/Talmo.jpg",
+      url: "https://www.twitch.tv/talmo",
+      followers: "956,5 k followers",
     },
     {
       quote: t("testimonial3"),
-      author: "ThomasGG",
-      role: t("role_streamer_fps"),
-      avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=100&h=100&fit=crop",
+      author: "IJenz",
+      role: t("role_streameuse_jc"),
+      avatar: "/image/Jenz.png",
+      url: "https://www.twitch.tv/ijenzlive",
+      followers: "69,9 k followers",
     },
   ];
 
@@ -34,22 +39,49 @@ const Testimonials = () => {
         <p className="text-neutral-400 text-center mb-12 max-w-2xl mx-auto">
           {t("testimonials_subtitle")}
         </p>
-        <div className="grid md:grid-cols-3 gap-8">
+
+        <div className="grid md:grid-cols-3 gap-8 group">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="glass-card p-6 rounded-xl bg-neutral-800 border border-neutral-700">
-              <p className="text-neutral-300 mb-6">{testimonial.quote}</p>
-              <div className="flex items-center gap-3">
-                <img
-                  src={testimonial.avatar}
-                  alt={testimonial.author}
-                  className="w-10 h-10 rounded-full"
-                />
-                <div>
-                  <p className="font-semibold text-white">{testimonial.author}</p>
-                  <p className="text-sm text-neutral-400">{testimonial.role}</p>
+            <a
+              key={index}
+              href={testimonial.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform duration-300 ease-in-out 
+                         group-hover:[&:not(:hover)]:scale-75 hover:scale-125"
+            >
+              <div className="glass-card p-6 rounded-xl bg-neutral-800 border border-neutral-700 hover:ring-1 hover:ring-purple-500">
+                <p className="text-neutral-300 mb-6">{testimonial.quote}</p>
+
+                <div className="flex items-start gap-3">
+                  {/* Avatar + LIVE */}
+                  <div className="relative">
+                    <img
+                      src={testimonial.avatar}
+                      alt={testimonial.author}
+                      className="w-12 h-12 rounded-full object-cover"
+                    />
+                    <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-red-600 text-xs text-white px-1.5 py-[2px] rounded-sm font-bold">
+                      LIVE
+                    </span>
+                  </div>
+
+                  {/* Infos */}
+                  <div>
+                    <div className="flex items-center">
+                      <p className="font-semibold text-white">{testimonial.author}</p>
+                      <img
+                        src="/image/verified2.png"
+                        alt="Verified"
+                        className="w-8 object-contain ml-1"
+                      />
+                    </div>
+                    <p className="text-sm text-neutral-400">{testimonial.role}</p>
+                    <p className="text-sm text-neutral-500">{testimonial.followers}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

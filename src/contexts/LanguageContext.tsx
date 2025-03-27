@@ -43,10 +43,10 @@ const translations = {
     testimonials_subtitle: 'Rejoignez des streamers qui ont déjà transformé leur stratégie sur Twitch.',
     testimonial1: 'Depuis que j\'ai lancé ma chaîne secondaire avec ce service, mes revenus ont augmenté de 30% sans aucun effort supplémentaire.',
     testimonial2: 'La mise en place a été incroyablement simple, et maintenant j\'ai une audience qui me regarde 24h/24, même quand je dors.',
-    testimonial3: 'Le suivi des performances est transparent et les revenus passifs ont transformé mon activité de streaming.',
-    role_streamer_asmr: 'Streamer ASMR',
+    testimonial3: 'Le suivi des performances est transparent et les revenus passifs ont transformé mon activité de streaming.\naaaaaaaaaa',
+    role_streamer_asmr: 'Streameuse ASMR',
     role_streameuse_jc: 'Streameuse Just Chatting',
-    role_streamer_fps: 'Streamer FPS',
+    role_streamer_fps: 'Streamer Fornite',
     // Stats section
     uptime: 'Uptime',
     countries: 'Pays',

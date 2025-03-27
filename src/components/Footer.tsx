@@ -1,48 +1,87 @@
-
 import { useLanguage } from "../contexts/LanguageContext";
+import {
+  LayoutDashboard,
+  Users,
+  HelpCircle,
+  Mail,
+} from "lucide-react";
 
 const Footer = () => {
   const { t } = useLanguage();
-  
+
   return (
     <footer className="bg-primary text-white">
       <div className="container-padding py-16">
-        <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
+          {/* Colonne 1 */}
           <div>
-            <h3 className="font-semibold mb-4">{t('footer_service')}</h3>
-            <ul className="space-y-2">
-              <li><a href="#features" className="text-neutral-300 hover:text-white transition-colors">{t('services')}</a></li>
-              <li><a href="#pricing" className="text-neutral-300 hover:text-white transition-colors">{t('pricing')}</a></li>
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_faq')}</a></li>
+            <ul className="space-y-2 text-sm">
+              <li className="flex items-center gap-2">
+                <LayoutDashboard className="w-4 h-4 text-purple-400" />
+                <a
+                  href="#features"
+                  className="relative hover:text-white transition-colors after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-purple-500 after:transition-all after:duration-300"
+                >
+                  {t("services")}
+                </a>
+              </li>
             </ul>
           </div>
+
+          {/* Colonne 2 */}
           <div>
-            <h3 className="font-semibold mb-4">{t('footer_company')}</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_about')}</a></li>
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_contact')}</a></li>
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_partnerships')}</a></li>
+            <ul className="space-y-2 text-sm">
+              <li className="flex items-center gap-2">
+                <Users className="w-4 h-4 text-purple-400" />
+                <a
+                  href="#testimonials"
+                  className="relative hover:text-white transition-colors after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-purple-500 after:transition-all after:duration-300"
+                >
+                  {t("testimonials")}
+                </a>
+              </li>
             </ul>
           </div>
+
+          {/* Colonne 3 */}
           <div>
-            <h3 className="font-semibold mb-4">{t('footer_resources')}</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_guides')}</a></li>
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_support')}</a></li>
+            <ul className="space-y-2 text-sm">
+              <li className="flex items-center gap-2">
+                <HelpCircle className="w-4 h-4 text-purple-400" />
+                <a
+                  href="#faq"
+                  className="relative hover:text-white transition-colors after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-purple-500 after:transition-all after:duration-300"
+                >
+                  {t("footer_faq")}
+                </a>
+              </li>
             </ul>
           </div>
+
+          {/* Colonne 4 */}
           <div>
-            <h3 className="font-semibold mb-4">{t('footer_legal')}</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_privacy')}</a></li>
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_terms')}</a></li>
-              <li><a href="#" className="text-neutral-300 hover:text-white transition-colors">{t('footer_cookies')}</a></li>
+            <ul className="space-y-2 text-sm">
+              <li className="flex items-center gap-2">
+                <Mail className="w-4 h-4 text-purple-400" />
+                <a
+                  href="#contact"
+                  className="relative hover:text-white transition-colors after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-0.5 after:bg-purple-500 after:transition-all after:duration-300"
+                >
+                  {t("footer_contact")}
+                </a>
+              </li>
             </ul>
           </div>
         </div>
-        <div className="max-w-4xl mx-auto mt-12 pt-8 border-t border-neutral-800">
-          <p className="text-neutral-400 text-center">
-            {t('footer_copyright')}
+
+        {/* Ligne de séparation stylisée */}
+        <div className="h-1 w-full bg-gradient-to-r from-purple-500/20 via-white/10 to-purple-500/20 my-8 rounded-full" />
+
+        {/* Bas de page */}
+        <div className="max-w-4xl mx-auto pt-4 text-center">
+          <p className="text-neutral-400 text-sm">
+            © 2024 StreamAuto. Créé avec{" "}
+            <span className="animate-pulse text-red-500" style={{ animationDuration: "2s" }}>❤️</span> par Thomas
           </p>
         </div>
       </div>

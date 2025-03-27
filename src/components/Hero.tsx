@@ -20,7 +20,7 @@ const Hero = () => {
           {t('your_content')} <span className="text-purple-400">Twitch</span> {t('twentyFourSeven')}
         </h1>
 
-        <div className="text-white font-semibold text-base md:text-lg mb-8 max-w-3xl mx-auto">
+        <div className="text-white font-normal text-base md:text-lg mt-12 mb-8 max-w-3xl mx-auto">
           {t("maximize_presence").split("\n").map((line, index) => (
             <span key={index} className="block">
               {line}
