@@ -81,7 +81,7 @@ const Footer = () => {
         <div className="max-w-4xl mx-auto pt-4 text-center">
           <p className="text-neutral-400 text-sm">
             © 2024 StreamAuto. Créé avec{" "}
-            <span className="animate-pulse text-red-500" style={{ animationDuration: "2s" }}>❤️</span> par Thomas
+            <span className="animate-pulse text-red-500" style={{ animationDuration: "1.5s" }}>❤️</span> par Thomas
           </p>
         </div>
       </div>
